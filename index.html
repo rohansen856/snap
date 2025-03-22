@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      max-width: 99vw;
+      font-size: 30px;
+      font-family: "Helvetica", "Arial", sans-serif;
+      transition-duration: 200ms;
+    }
+    nav {
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+    }
+    p {
+      font-size: 40px;
+    }
+    .pam {
+      margin-right: auto;
+    }
+    .pp {
+      margin-right: auto;
+      margin-left: 50px;
+    }
+    .divvv {
+      width: 40%;
+      margin-left: 50vw;
+      font-size: 30px;
+      text-overflow: clip;
+    }
+    .stick {
+      position: sticky;
+      padding: 0 10px;
+      display: flex;
+      justify-content: space-between;
+      top: 0;
+    }
+    .cont {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-bottom: 50px;
+    }
+    .cont h3 {
+      margin-bottom: 20px;
+      padding-left: 150px;
+    }
+    .box {
+      width: 900px;
+      height: 600px;
+      border-radius: 10px;
+      background-color: aliceblue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    .bigg {
+      width: 98vw;
+    }
+    .f1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .smoll {
+      max-width: 700px;
+    }
+    .hehe {
+      margin-bottom: 200px;
+    }
+    .linkk {
+      text-decoration: underline;
+    }
+    .l1 {
+      background-image: url("./image1.avif");
+      background-size: cover; /* Ensures full coverage */
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .l2 {
+      background-image: url("./image2.avif");
+      background-size: cover; /* Ensures full coverage */
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .l3 {
+      background-image: url("./image3.avif");
+      background-size: cover; /* Ensures full coverage */
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .l4 {
+      background-image: url("./image4.avif");
+      background-size: cover; /* Ensures full coverage */
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .l5 {
+      background-image: url("./image5.avif");
+      background-size: cover; /* Ensures full coverage */
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .l6 {
+      background-image: url("./image6.avif");
+      background-size: cover; /* Ensures full coverage */
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    body:has(.l1:hover) {
+      background-color: grey;
+    }
+    body:has(.l2:hover) {
+      background-color: green;
+    }
+    body:has(.l3:hover) {
+      background-color: pink;
+    }
+    body:has(.l4:hover) {
+      background-color: brown;
+    }
+    body:has(.l5:hover) {
+      background-color: yellow;
+    }
+    body:has(.l6:hover) {
+      background-color: orange;
+    }
+    .box video {
+      width: 50%; /* Half the width of .box */
+      height: 50%; /* Half the height of .box */
+      object-fit: cover;
+    }
+  </style>
+  <body>
+    <nav class="nav">
+      <p class="pam">Pam</p>
+      <p>Info</p>
+      <p class="pp">Projects</p>
+      <p class="pp">Lorem, ipsum.</p>
+    </nav>
+    <div class="divvv">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quisquam
+      iusto, commodi architecto exercitationem provident ducimus tempore. Eius,
+      magnam cum.
+    </div>
+    <div>
+      <div class="stick">
+        <p>lorem ipsum</p>
+        <p class="linkk">view all works</p>
+      </div>
+      <div class="cont">
+        <h3>Lorem, ipsum dolor.</h3>
+        <div class="box l1">
+          <video src="./helllo.mp4" autoplay loop muted></video>
+        </div>
+      </div>
+      <div class="cont">
+        <h3>Lorem, ipsum dolor.</h3>
+        <div class="box l2">
+          <video src="./helllo.mp4" autoplay loop muted></video>
+        </div>
+      </div>
+      <div class="cont">
+        <h3>Lorem, ipsum dolor.</h3>
+        <div class="box l3">
+          <video src="./helllo.mp4" autoplay loop muted></video>
+        </div>
+      </div>
+      <div class="cont">
+        <h3>Lorem, ipsum dolor.</h3>
+        <div class="box l4">
+          <video src="./helllo.mp4" autoplay loop muted></video>
+        </div>
+      </div>
+      <div class="cont">
+        <h3>Lorem, ipsum dolor.</h3>
+        <div class="box l5">
+          <video src="./helllo.mp4" autoplay loop muted></video>
+        </div>
+      </div>
+      <div class="cont">
+        <h3>Lorem, ipsum dolor.</h3>
+        <div class="box l6">
+          <video src="./helllo.mp4" autoplay loop muted></video>
+        </div>
+      </div>
+    </div>
+    <img src="./image7.avif" class="bigg" alt="" />
+    <footer>
+      <div class="f1 hehe">
+        <p>Agency</p>
+        <p class="smoll">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
+          blanditiis adipisci explicabo, vero,
+        </p>
+        <p>hello</p>
+      </div>
+      <div class="f1">
+        <img src="./image.png" alt="" />
+        <p class="smoll">Lorem, ipsum</p>
+        <p class="smoll">Lorem, ipsum</p>
+        <p>linkedin id</p>
+      </div>
+    </footer>
+  </body>
+</html>
